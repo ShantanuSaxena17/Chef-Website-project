@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="verandah_logo-removebg-preview.png">
+
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+         }
+         body{
+            background-color: #FFE382;
+            color: black;
+            font-family: 'Ubuntu',sans-serif;
+            
+         }
+         nav{
+            display: flex;
+            background-color: #FFF7D4;
+            align-items: center;
+            justify-content: space-around;
+            height: 100px;
+         }
+         
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+         nav ul li{
+            list-style: none;
+            margin: 0 23px;
+            font-size: 20px;
+            color: black;
+         }
+         .left{
+            margin: 0 -400px
+         }
+         .section{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+
+         }
+         .section>div{
+            width:30%;
+            align-content: center;
+         }
+         .leftsection{
+            margin: 100px;
+            color: #994D1C;
+            
+         }
+         .rightsection > img{
+            width: 400px;
+            padding: 20px;
+            margin: 60px 0px;
+         }
+         .name{
+            font-size: 3rem;
+          
+         }
+        footer{
+            background-color: #F6ECA9;
+            height: 150px;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+        }
+        .first-footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-between;
+            
+            
+        }
+        .footer>div{
+            width: 30%;
+        }
+        footer ul li{
+            list-style: none;
+        }
+        h2{
+            font-size: 2rem;
+            margin: 50px 0 0 -200px;
+        }
+        .footer-second{
+            margin: 20px;
+        }
+        nav ul li a{
+            color: black;
+        }
+        nav ul li a:hover{
+            color: orange;
+            font-size: 1.1rem;
+        }
+        a{
+            text-decoration: none;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="verandah_logo-removebg-preview.png" alt="logo">
+            </div>
+            <div class="right">
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="section">
+            <div class="leftsection">
+            <p style="font-size: 1.5rem;">Executive Chef</p>
+            <br>
+            <p class="name"><b>SUNIL SHRIVASTAVA</b></p>
+            <br>
+            <p style="font-size: 1.2rem;">Indulge in the artistry of authentic Indian flavors at our culinary haven. Our chefs craft each dish as a symphony of spices,
+                 bringing the vibrant streets of Mumbai and the royal kitchens of Rajasthan to your table.
+                 From tandoori specialties to flavorful curries, every bite is a celebration of tradition and shared moments.
+                 Join us in our inviting ambiance, where the magic of India's culinary heritage awaits.</p>
+            </div>
+            <div class="rightsection">
+             <img src="sunil mama.jpg" alt="chef pic">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Contact Info</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><i class="fa-solid fa-house"></i>&nbsp;Kirby Collection, 3300 Kirby <br>Drive, Suite 7A, Houston, <br>TX 77098</li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:verandah@verandahrestaurant.com">&nbsp;verandah@verandahrestaurant.com</a></li>
+                    <li><i class="fa-solid fa-phone"></i><a href="tel:(281) 725 8463 ">&nbsp; (281)  725 8463</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
